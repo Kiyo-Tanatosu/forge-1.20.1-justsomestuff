@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enderite_chunk": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "justsomestuff:enderite_chunk"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "justsomestuff:enderite_ingot_from_blasting_enderite_chunk"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_enderite_chunk",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "justsomestuff:enderite_ingot_from_blasting_enderite_chunk"
+    ]
+  },
+  "sends_telemetry_event": false
+}

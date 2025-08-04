@@ -1,0 +1,4 @@
+// 1.20.1	2025-08-04T18:49:45.1020249	Registries
+b0cdf70ee9fde08f157b65923a9a7d9733543b9a data/justsomestuff/forge/biome_modifier/add_enderite_ore.json
+7fef61106d942927842c13e846cb36c2c848900a data/justsomestuff/worldgen/configured_feature/enderite_ore.json
+017fc0bd3dd444feeb531662610774cf6f4b817e data/justsomestuff/worldgen/placed_feature/enderite_ore_placed.json

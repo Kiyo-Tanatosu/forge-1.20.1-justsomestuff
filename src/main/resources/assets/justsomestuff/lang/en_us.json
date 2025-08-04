@@ -10,5 +10,10 @@
   "item.justsomestuff.enderite_pickaxe": "Enderite Pickaxe",
   "item.justsomestuff.enderite_axe": "Enderite Axe",
   "item.justsomestuff.enderite_shovel": "Enderite Shovel",
-  "item.justsomestuff.enderite_hoe": "Enderite Hoe"
+  "item.justsomestuff.enderite_hoe": "Enderite Hoe",
+
+  "item.justsomestuff.enderite_helmet": "Enderite Helmet",
+  "item.justsomestuff.enderite_chestplate": "Enderite Chestplate",
+  "item.justsomestuff.enderite_leggings": "Enderite Leggings",
+  "item.justsomestuff.enderite_boots": "Enderite Boots"
 }

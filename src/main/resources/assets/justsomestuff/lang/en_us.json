@@ -4,5 +4,11 @@
   "item.justsomestuff.enderite_ingot": "Enderite Ingot",
   "item.justsomestuff.enderite_chunk": "Enderite Chunk",
   "block.justsomestuff.enderite_block": "Enderite Block",
-  "block.justsomestuff.enderite_ore_block": "Enderite Ore"
+  "block.justsomestuff.enderite_ore_block": "Enderite Ore",
+
+  "item.justsomestuff.enderite_sword": "Enderite Sword",
+  "item.justsomestuff.enderite_pickaxe": "Enderite Pickaxe",
+  "item.justsomestuff.enderite_axe": "Enderite Axe",
+  "item.justsomestuff.enderite_shovel": "Enderite Shovel",
+  "item.justsomestuff.enderite_hoe": "Enderite Hoe"
 }

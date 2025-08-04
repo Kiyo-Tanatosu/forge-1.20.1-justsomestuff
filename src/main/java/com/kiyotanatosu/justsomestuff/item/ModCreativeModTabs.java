@@ -18,10 +18,17 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ENDERITE_INGOT.get()))
                     .title(Component.translatable("creativetab.just_some_stuff_tab"))
                     .displayItems((pParameters, pOutput) -> {
+
                         pOutput.accept(ModItems.ENDERITE_INGOT.get());
                         pOutput.accept(ModItems.ENDERITE_CHUNK.get());
                         pOutput.accept(ModBlocks.ENDERITE_BLOCK.get());
                         pOutput.accept(ModBlocks.ENDERITE_ORE_BLOCK.get());
+
+                        pOutput.accept(ModItems.ENDERITE_SWORD.get());
+                        pOutput.accept(ModItems.ENDERITE_PICKAXE.get());
+                        pOutput.accept(ModItems.ENDERITE_AXE.get());
+                        pOutput.accept(ModItems.ENDERITE_SHOVEL.get());
+                        pOutput.accept(ModItems.ENDERITE_HOE.get());
 
 
 

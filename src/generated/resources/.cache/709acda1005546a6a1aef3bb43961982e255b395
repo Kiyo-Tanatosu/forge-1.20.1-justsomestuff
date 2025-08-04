@@ -1,3 +1,4 @@
-// 1.20.1	2025-08-03T20:19:06.5906003	Tags for minecraft:block mod id justsomestuff
-092ed4b85731ac74b84dafd68b2ec0e5eb7edbf6 data/forge/tags/blocks/needs_netherite_tool.json
+// 1.20.1	2025-08-04T15:39:42.3294782	Tags for minecraft:block mod id justsomestuff
+daf666fd8c2be46c33ab4fe61bd9c61c7184fcdb data/forge/tags/blocks/needs_netherite_tool.json
+e692a11709501ba891f8494963e911b2cc617987 data/justsomestuff/tags/blocks/needs_enderite_tool.json
 092ed4b85731ac74b84dafd68b2ec0e5eb7edbf6 data/minecraft/tags/blocks/mineable/pickaxe.json

@@ -19,6 +19,13 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.ENDERITE_INGOT);
         simpleItem(ModItems.ENDERITE_CHUNK);
+
+        simpleItem(ModItems.ENDERITE_SWORD);
+        simpleItem(ModItems.ENDERITE_PICKAXE);
+        simpleItem(ModItems.ENDERITE_AXE);
+        simpleItem(ModItems.ENDERITE_SHOVEL);
+        simpleItem(ModItems.ENDERITE_HOE);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

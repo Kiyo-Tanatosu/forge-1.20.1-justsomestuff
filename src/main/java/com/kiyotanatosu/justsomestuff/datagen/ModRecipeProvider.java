@@ -3,8 +3,11 @@ package com.kiyotanatosu.justsomestuff.datagen;
 import com.kiyotanatosu.justsomestuff.JustSomeStuff;
 import com.kiyotanatosu.justsomestuff.block.ModBlocks;
 import com.kiyotanatosu.justsomestuff.item.ModItems;
+import com.kiyotanatosu.justsomestuff.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -24,8 +27,8 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, ENDERITE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get(), 0.25f, 200, "sapphire");
-        oreBlasting(pWriter, ENDERITE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get(), 0.25f, 100, "sapphire");
+        oreSmelting(pWriter, ENDERITE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get(), 0.25f, 200, "enderite");
+        oreBlasting(pWriter, ENDERITE_SMELTABLES, RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get(), 0.25f, 100, "enderite");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ENDERITE_BLOCK.get())
                 .pattern("SSS")
@@ -38,6 +41,52 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ENDERITE_INGOT.get(), 9)
                 .requires(ModBlocks.ENDERITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ENDERITE_BLOCK.get()), has(ModBlocks.ENDERITE_BLOCK.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SWORD.get())
+                .pattern(" E ")
+                .pattern(" E ")
+                .pattern(" S ")
+                .define('E', ModItems.ENDERITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_PICKAXE.get())
+                .pattern("EEE")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.ENDERITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_AXE.get())
+                .pattern("EE ")
+                .pattern("ES ")
+                .pattern(" S ")
+                .define('E', ModItems.ENDERITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_SHOVEL.get())
+                .pattern(" E ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.ENDERITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ENDERITE_HOE.get())
+                .pattern("EE ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('E', ModItems.ENDERITE_INGOT.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
                 .save(pWriter);
     }
 

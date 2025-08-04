@@ -2,6 +2,7 @@ package com.kiyotanatosu.justsomestuff.datagen;
 
 import com.kiyotanatosu.justsomestuff.JustSomeStuff;
 import com.kiyotanatosu.justsomestuff.block.ModBlocks;
+import com.kiyotanatosu.justsomestuff.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -26,8 +27,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
 
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
-                .add(ModBlocks.ENDERITE_BLOCK.get(),
-                        ModBlocks.ENDERITE_ORE_BLOCK.get());
+                .add(ModBlocks.ENDERITE_ORE_BLOCK.get());
+
+        this.tag(ModTags.Blocks.NEEDS_ENDERITE_TOOL)
+                .add(ModBlocks.ENDERITE_BLOCK.get());
 
 
     }

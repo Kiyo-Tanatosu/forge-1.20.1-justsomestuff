@@ -1,7 +1,7 @@
 package com.kiyotanatosu.justsomestuff.item;
 
 import com.kiyotanatosu.justsomestuff.JustSomeStuff;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,8 +13,25 @@ public class ModItems {
 
     public static final RegistryObject<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
             () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> ENDERITE_CHUNK = ITEMS.register("enderite_chunk",
             () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> ENDERITE_SWORD = ITEMS.register("enderite_sword",
+            () -> new SwordItem(ModToolTiers.ENDERITE, 3, -2.4f, new Item.Properties()));
+
+    public static final RegistryObject<Item> ENDERITE_PICKAXE = ITEMS.register("enderite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ENDERITE, 1, -2.8f, new Item.Properties()));
+
+    public static final RegistryObject<Item> ENDERITE_AXE = ITEMS.register("enderite_axe",
+            () -> new AxeItem(ModToolTiers.ENDERITE, 5, -3f, new Item.Properties()));
+
+    public static final RegistryObject<Item> ENDERITE_SHOVEL = ITEMS.register("enderite_shovel",
+            () -> new ShovelItem(ModToolTiers.ENDERITE, 1, -3f, new Item.Properties()));
+
+    public static final RegistryObject<Item> ENDERITE_HOE = ITEMS.register("enderite_hoe",
+            () -> new HoeItem(ModToolTiers.ENDERITE, -4, 0f, new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

@@ -40,6 +40,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        simpleItem(ModItems.BANANA);
+
         simpleItem(ModItems.ENDERITE_INGOT);
         simpleItem(ModItems.ENDERITE_CHUNK);
 

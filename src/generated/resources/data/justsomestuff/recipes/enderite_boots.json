@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "justsomestuff:enderite_ingot"
+    }
+  },
+  "pattern": [
+    "E E",
+    "E E",
+    "   "
+  ],
+  "result": {
+    "item": "justsomestuff:enderite_boots"
+  },
+  "show_notification": true
+}

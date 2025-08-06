@@ -19,6 +19,8 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.just_some_stuff_tab"))
                     .displayItems((pParameters, pOutput) -> {
 
+                        pOutput.accept(ModItems.BANANA.get());
+
                         pOutput.accept(ModItems.ENDERITE_INGOT.get());
                         pOutput.accept(ModItems.ENDERITE_CHUNK.get());
                         pOutput.accept(ModBlocks.ENDERITE_BLOCK.get());

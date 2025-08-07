@@ -34,10 +34,12 @@
       "upper_size": 2
     },
     "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
+      "type": "minecraft:bending_trunk_placer",
       "base_height": 5,
+      "bend_length": 2,
       "height_rand_a": 4,
-      "height_rand_b": 3
+      "height_rand_b": 3,
+      "min_height_for_leaves": 4
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",

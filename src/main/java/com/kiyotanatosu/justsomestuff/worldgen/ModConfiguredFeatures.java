@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.util.valueproviders.ConstantInt;
+import net.minecraft.util.valueproviders.IntProvider;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
@@ -43,7 +44,7 @@ public class ModConfiguredFeatures {
 
         register(context, BANANA_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.BANANA_LOG.get()),
-                new StraightTrunkPlacer(5, 4, 3),
+                new BendingTrunkPlacer(5, 4, 3, 4, ConstantInt.of(2)),
                 BlockStateProvider.simple(ModBlocks.BANANA_LEAVES.get()),
                 new MegaJungleFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
                 new TwoLayersFeatureSize(1, 0, 2)).build());

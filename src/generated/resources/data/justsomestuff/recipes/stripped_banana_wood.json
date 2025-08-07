@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "justsomestuff:stripped_banana_log"
+    }
+  },
+  "pattern": [
+    "WW ",
+    "WW ",
+    "   "
+  ],
+  "result": {
+    "count": 3,
+    "item": "justsomestuff:stripped_banana_wood"
+  },
+  "show_notification": true
+}

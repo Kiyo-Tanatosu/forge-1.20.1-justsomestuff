@@ -32,6 +32,15 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(ModTags.Blocks.NEEDS_ENDERITE_TOOL)
                 .add(ModBlocks.ENDERITE_BLOCK.get());
 
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BANANA_LOG.get())
+                .add(ModBlocks.STRIPPED_BANANA_LOG.get())
+                .add(ModBlocks.BANANA_WOOD.get())
+                .add(ModBlocks.STRIPPED_BANANA_WOOD.get());
+
+        this.tag(BlockTags.PLANKS)
+                .add(ModBlocks.BANANA_PLANKS.get());
+
 
     }
 }

@@ -17,5 +17,15 @@
   "item.justsomestuff.enderite_helmet": "Enderite Helmet",
   "item.justsomestuff.enderite_chestplate": "Enderite Chestplate",
   "item.justsomestuff.enderite_leggings": "Enderite Leggings",
-  "item.justsomestuff.enderite_boots": "Enderite Boots"
+  "item.justsomestuff.enderite_boots": "Enderite Boots",
+
+  "block.justsomestuff.banana_log": "Banana Log",
+  "block.justsomestuff.banana_wood": "Banana Wood",
+  "block.justsomestuff.stripped_banana_log": "Stripped Banana Log",
+  "block.justsomestuff.stripped_banana_wood": "Stripped Banana Log",
+
+  "block.justsomestuff.banana_planks": "Banana Planks",
+  "block.justsomestuff.banana_leaves": "Banana Leaves",
+
+  "block.justsomestuff.banana_sapling": "Banana Sapling"
 }

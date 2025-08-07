@@ -1,6 +1,7 @@
 package com.kiyotanatosu.justsomestuff.datagen;
 
 import com.kiyotanatosu.justsomestuff.JustSomeStuff;
+import com.kiyotanatosu.justsomestuff.block.ModBlocks;
 import com.kiyotanatosu.justsomestuff.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -26,6 +27,15 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.ENDERITE_CHESTPLATE.get(),
                         ModItems.ENDERITE_LEGGINGS.get(),
                         ModItems.ENDERITE_BOOTS.get());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.BANANA_LOG.get().asItem())
+                .add(ModBlocks.STRIPPED_BANANA_LOG.get().asItem())
+                .add(ModBlocks.BANANA_WOOD.get().asItem())
+                .add(ModBlocks.STRIPPED_BANANA_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.BANANA_PLANKS.get().asItem());
 
     }
 }

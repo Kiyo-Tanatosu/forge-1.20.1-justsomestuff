@@ -1,6 +1,7 @@
 package com.kiyotanatosu.justsomestuff.datagen;
 
 import com.kiyotanatosu.justsomestuff.JustSomeStuff;
+import com.kiyotanatosu.justsomestuff.block.ModBlocks;
 import com.kiyotanatosu.justsomestuff.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceKey;
@@ -56,6 +57,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.ENDERITE_CHESTPLATE);
         trimmedArmorItem(ModItems.ENDERITE_LEGGINGS);
         trimmedArmorItem(ModItems.ENDERITE_BOOTS);
+
+        saplingItem(ModBlocks.BANANA_SAPLING);
 
     }
 
@@ -147,5 +150,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(JustSomeStuff.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder saplingItem(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(JustSomeStuff.MOD_ID,"block/" + item.getId().getPath()));
     }
 }

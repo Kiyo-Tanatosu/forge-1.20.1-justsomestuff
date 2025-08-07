@@ -29,6 +29,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.ENDERITE_ORE_BLOCK.get(),
                 block -> createOreDrop(ModBlocks.ENDERITE_ORE_BLOCK.get(), ModItems.ENDERITE_CHUNK.get()));
 
+        this.dropSelf(ModBlocks.BANANA_LOG.get());
+        this.dropSelf(ModBlocks.STRIPPED_BANANA_LOG.get());
+        this.dropSelf(ModBlocks.BANANA_WOOD.get());
+        this.dropSelf(ModBlocks.STRIPPED_BANANA_WOOD.get());
+        this.dropSelf(ModBlocks.BANANA_PLANKS.get());
+
+        this.add(ModBlocks.BANANA_LEAVES.get(),
+                block -> createLeavesDrops(block, ModBlocks.BANANA_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.dropSelf(ModBlocks.BANANA_SAPLING.get());
+
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

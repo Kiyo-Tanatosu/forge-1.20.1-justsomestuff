@@ -1,3 +1,10 @@
-// 1.20.1	2025-08-03T20:27:02.8133817	Loot Tables
+// 1.20.1	2025-08-07T15:25:25.6196782	Loot Tables
+3b64611081867083ea9c3d6177f018ca20391422 data/justsomestuff/loot_tables/blocks/banana_leaves.json
+87c35769d989f6a468888f40ab9b30030f8b8a03 data/justsomestuff/loot_tables/blocks/banana_log.json
+7b59974d39ae65eabed42c8c03e72e0e7555e2b3 data/justsomestuff/loot_tables/blocks/banana_planks.json
+3139332838b07e883a02bc8c96ae794c61666c52 data/justsomestuff/loot_tables/blocks/banana_sapling.json
+f11a0f215778a58b66053caf27ff26429715813d data/justsomestuff/loot_tables/blocks/banana_wood.json
 59b468fe18e082d2dda14082ec8b2223ea82495b data/justsomestuff/loot_tables/blocks/enderite_block.json
 cb71c28b8d740694b3d500df5cd3c811501773fc data/justsomestuff/loot_tables/blocks/enderite_ore_block.json
+3b1c501c985881a825790a5e21a7a31f01d708c8 data/justsomestuff/loot_tables/blocks/stripped_banana_log.json
+e1e7e511184587b07ac88ad008737ae461382a4f data/justsomestuff/loot_tables/blocks/stripped_banana_wood.json

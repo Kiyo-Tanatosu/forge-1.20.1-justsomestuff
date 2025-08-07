@@ -123,6 +123,30 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('E', ModItems.ENDERITE_INGOT.get())
                 .unlockedBy(getHasName(ModItems.ENDERITE_INGOT.get()), has(ModItems.ENDERITE_INGOT.get()))
                 .save(pWriter);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModBlocks.BANANA_PLANKS.get(), 4)
+                .requires(ModBlocks.BANANA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.BANANA_LOG.get()), has(ModBlocks.BANANA_LOG.get()))
+                .save(pWriter);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BANANA_WOOD.get(), 3)
+                .pattern("WW ")
+                .pattern("WW ")
+                .pattern("   ")
+                .define('W', ModBlocks.BANANA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.BANANA_LOG.get()), has(ModBlocks.BANANA_LOG.get()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STRIPPED_BANANA_WOOD.get(), 3)
+                .pattern("WW ")
+                .pattern("WW ")
+                .pattern("   ")
+                .define('W', ModBlocks.STRIPPED_BANANA_LOG.get())
+                .unlockedBy(getHasName(ModBlocks.STRIPPED_BANANA_LOG.get()), has(ModBlocks.STRIPPED_BANANA_LOG.get()))
+                .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

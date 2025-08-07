@@ -37,6 +37,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ENDERITE_LEGGINGS.get());
                         pOutput.accept(ModItems.ENDERITE_BOOTS.get());
 
+                        pOutput.accept(ModBlocks.BANANA_LOG.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BANANA_LOG.get());
+                        pOutput.accept(ModBlocks.BANANA_WOOD.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BANANA_WOOD.get());
+
+                        pOutput.accept(ModBlocks.BANANA_PLANKS.get());
+                        pOutput.accept(ModBlocks.BANANA_LEAVES.get());
+
+                        pOutput.accept(ModBlocks.BANANA_SAPLING.get());
+
 
 
                     })

@@ -1,4 +1,6 @@
-// 1.20.1	2025-08-06T14:04:28.459663	Recipes
+// 1.20.1	2025-08-07T15:25:25.6206773	Recipes
+7b28e8a779d834e7159324e2cb7257772d6d90ca data/justsomestuff/advancements/recipes/misc/banana_planks.json
+afb315e52c0b21127f60cb24d95c575cda713346 data/justsomestuff/advancements/recipes/misc/banana_wood.json
 137c1491f919df601c9ff8f18b75539a897c6d63 data/justsomestuff/advancements/recipes/misc/enderite_axe.json
 4ac611dbace43f7c152ee55c5287a615d9aa65aa data/justsomestuff/advancements/recipes/misc/enderite_block.json
 5d7129ba41b85bf79f9723d571504bc6385fefdc data/justsomestuff/advancements/recipes/misc/enderite_boots.json
@@ -14,6 +16,9 @@ bd76ada0228277e58a9f87594efe73c4e5ac45de data/justsomestuff/advancements/recipes
 e2d8a0767f4e558be75f75d18480699901a2008c data/justsomestuff/advancements/recipes/misc/enderite_pickaxe.json
 3e0e64b53bd44aecaecd90b9d1ac79b6fcfdc807 data/justsomestuff/advancements/recipes/misc/enderite_shovel.json
 73477e4850c430867c36584152a7423dc1ad29e3 data/justsomestuff/advancements/recipes/misc/enderite_sword.json
+517c679394bb24223cd5cd3f7f7f6be6f972cecf data/justsomestuff/advancements/recipes/misc/stripped_banana_wood.json
+2136c227f0f78be72f3d3425b9e5c63274378e3a data/justsomestuff/recipes/banana_planks.json
+10951ca9e551bc955b4e181d71a75118920cc7a9 data/justsomestuff/recipes/banana_wood.json
 fe84f72d55d37651622f7beda43be5fd372c2846 data/justsomestuff/recipes/enderite_axe.json
 eb7c4fc620665e6ba6a38352d697a9721f163e58 data/justsomestuff/recipes/enderite_block.json
 038011ca9a52acf4ea09dfc995a7c3cbafd3c7cc data/justsomestuff/recipes/enderite_boots.json
@@ -29,3 +34,4 @@ eb7c4fc620665e6ba6a38352d697a9721f163e58 data/justsomestuff/recipes/enderite_blo
 2643557065b549821d00b7a2bc4c998722de267e data/justsomestuff/recipes/enderite_pickaxe.json
 a8b55ee39b9bd649658d94b3bc339cf9660e10c6 data/justsomestuff/recipes/enderite_shovel.json
 7f3affd0b2dc724935ce5dbed77d51ef1a677a2f data/justsomestuff/recipes/enderite_sword.json
+950f58a259b81c82c3b751fe73fbd3cf9e367e5b data/justsomestuff/recipes/stripped_banana_wood.json
